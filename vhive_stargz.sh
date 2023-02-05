@@ -25,13 +25,7 @@ sleep 30
 
 cd ..
 
-git clone https://github.com/DavidBuzatu-Marian/DSL-Work.git
-
-mkdir experiment
-
-mv DSL-Work/experiments experiment/
-
-cd experiment/experiments/script
+cd ./experiments/script
 
 sudo /usr/local/go/bin/go mod init main
 
