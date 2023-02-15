@@ -1,0 +1,13 @@
+apiVersion: serving.knative.dev/v1
+kind: Pod
+metadata:
+  name: base-springboot-test
+spec:
+  template:
+    spec:
+      containers:
+        - name: springboot-base
+          image: ghcr.io/davidbuzatu-marian/springboot:base
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Always
