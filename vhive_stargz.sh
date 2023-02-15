@@ -37,4 +37,4 @@ sudo apt install vnstat
 
 ./main base-ghost-test base-golang-test base-mongo-test base-nginx-test base-nodejs-test base-postgres-test base-python-test && ./main estargz-ghost-test estargz-golang-test estargz-mongo-test estargz-nginx-test estargz-nodejs-test estargz-postgres-test estargz-python-test
 
-./main base-object_rec-test base-springboot-test && ./main estargz-object_rec-test estargz-springboot-test
+./main base-objectrec-test base-springboot-test && ./main estargz-objectrec-test estargz-springboot-test
