@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
         - name: objectrec-stargz
-          image: ghcr.io/davidbuzatu-marian/object_rec:base
+          image: ghcr.io/davidbuzatu-marian/object_rec:estargz
           ports:
             - containerPort: 8080
           imagePullPolicy: Always

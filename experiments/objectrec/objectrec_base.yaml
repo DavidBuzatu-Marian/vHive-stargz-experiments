@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - name: object_rec-base
+        - name: objectrec-base
           image: ghcr.io/davidbuzatu-marian/object_rec:base
           ports:
             - containerPort: 8080
