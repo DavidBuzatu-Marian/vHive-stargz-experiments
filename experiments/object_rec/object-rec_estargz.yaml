@@ -1,13 +1,13 @@
 apiVersion: serving.knative.dev/v1
 kind: Pod
 metadata:
-  name: estargz-object-rec-test
+  name: estargz-object_rec-test
 spec:
   template:
     spec:
       containers:
-        - name: object-rec-stargz
-          image: ghcr.io/davidbuzatu-marian/object-rec:base
+        - name: object_rec-stargz
+          image: ghcr.io/davidbuzatu-marian/object_rec:base
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
